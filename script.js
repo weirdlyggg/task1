@@ -1,3 +1,7 @@
+$(document).ready(function() {
+    $('#modal').modal('show');
+});
+
 document.getElementById("button1").addEventListener("click", function() {
     let block = document.getElementById("block-first");
     if (block.style.display === "none") {
