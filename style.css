@@ -7,15 +7,23 @@ body, html {
     padding: 10px;
     text-align: center;
 }
-.block2 {
+.block2f {
     border: 1px solid black;
     padding: 10px;
     text-align: center;
+    background-color:antiquewhite;
 }
 .block2s {
     border: 1px dashed black;
     padding: 10px;
     text-align: center;
+    background-color: gray;
+}
+.block2t {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    background-color:darkseagreen;
 }
 .block3f {
     border: 1px solid black;
@@ -26,4 +34,8 @@ body, html {
     border: 1px solid black;
     padding: 10px;
     text-align: center;
+}
+.container-fluid {
+    display: flex;
+    flex-direction: column;
 }
